@@ -1,2 +1,33 @@
-# vue-lessons
-This repository was created to help developers prepare for interviews.
+# Vue Lessons
+
+Проект для практических уроков по Vue 3.
+
+## Установка
+
+```bash
+npm install
+```
+
+## Запуск
+
+```bash
+npm run dev
+```
+
+## Сборка
+
+```bash
+npm run build
+```
+
+## Первый урок
+
+В стартовом примере подключен `zod` и показана проверка данных, которые могли прийти с API:
+
+```ts
+{
+  id: 1,
+  name: 'Denis',
+  age: '25',
+}
+```
